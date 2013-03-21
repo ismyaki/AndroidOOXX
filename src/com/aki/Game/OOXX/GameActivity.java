@@ -22,7 +22,7 @@ public class GameActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game);
-        //
+        // 
         layout = (RelativeLayout)this.findViewById(R.id.RelativeLayout01);
         lp =new RelativeLayout.LayoutParams(-2, -2);
         lp.addRule(RelativeLayout.CENTER_IN_PARENT);
