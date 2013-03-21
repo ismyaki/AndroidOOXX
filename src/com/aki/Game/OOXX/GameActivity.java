@@ -29,7 +29,7 @@ public class GameActivity extends Activity {
         //
         menu = new menuTable(this , this);
         start = new StartTable(this , this);
-        //ddd
+        //
         layout.addView(menu, lp);
         layout.addView(start, lp);
         //
