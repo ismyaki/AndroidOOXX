@@ -21,7 +21,7 @@ public class GameActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.game); 
+        setContentView(R.layout.game);
         // 
         layout = (RelativeLayout)this.findViewById(R.id.RelativeLayout01);
         lp =new RelativeLayout.LayoutParams(-2, -2);
